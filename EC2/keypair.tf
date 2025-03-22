@@ -17,3 +17,5 @@ resource "aws_instance" "web1" {
     Name = "HelloWorld"
   }
 }
+#for generating key pair need to run "ssh-keygen -t rsa -b 2048 -f testkey.pem" command now you get .pem and .pub file 
+#copy that pub file content in public_key 
