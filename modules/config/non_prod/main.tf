@@ -1,5 +1,5 @@
 module "s3nonprod" {
-    source = "../../module/s3"
+    source = "../../modules/modules3"
     bucket = var.bucket
     env=var.env
   
